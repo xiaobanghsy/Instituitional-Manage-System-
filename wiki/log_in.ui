@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>log_in</class>
+ <widget class="QWidget" name="log_in">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="head">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>120</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700; color:#00aaff;&quot;&gt;登录&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>190</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>240</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="identity">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>190</y>
+     <width>51</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+   <item>
+    <property name="text">
+     <string>教师</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>助教</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="bac">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>10</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tea</class>
+ <widget class="QWidget" name="tea">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="bacreg">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>10</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>回到注册界面</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="baclog">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>60</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>回到登录界面</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="notice">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>190</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看已发通知</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="notice_publish">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发布通知</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="course">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>课程</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="create">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>创建课程</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="text_out">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>741</width>
+     <height>211</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>20</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注销</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="head">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="homework_publish">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>140</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发布作业</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="homework_view">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>90</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看已发布作业</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>140</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看课程成员</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消课程</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>40</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看课程评价</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>40</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看作业全部得分</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>90</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>为学生某次作业评分</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
